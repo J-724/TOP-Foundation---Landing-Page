@@ -67,7 +67,7 @@ body {
     max-width: 80vw;
     display: flex;
     justify-content: space-between;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     gap: 20px;
 }
 
@@ -76,7 +76,7 @@ body {
     display: flex;
     flex-flow: column nowrap;
     align-content: space-between;
-    flex: 0 1 auto;
+    flex: 1 1 400px;
     gap: 15px;
 }
 
@@ -98,17 +98,16 @@ body {
 }
 
 .content-one-img{
-    max-width: 40vw;
     display: flex;
     align-items: center;
-    flex: 0 1 auto;
+    flex: 1 1 400px;
 }
 
 .content-one-img img{
     width: 100%;
     border-radius: 10px;
     height: auto;
-    flex: 0 1 auto;
+    flex: 1 1 auto;
 }
  
 
